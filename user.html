@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="body-user">
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html" class="logo"><img src="images/Visiple_logo_1.png" alt="Visiple.com"></a>
+        <ul class="nav-ulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="whyus.html">Why Visiple</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <ion-icon href="user.html" name="person-circle-outline" onlick="redirect()" id="btn-userpage"
+                size="large"></ion-icon>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </nav>
+    <div class="dropdown-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="whyus.html">Why Visiple</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="user.html">Account</a></li>
+    </div>
+    <div class="user-main-parent">
+        <div class="user-main-child">
+            <div class="user-main-txt">
+                <h1>You are not registered or loggen in yet.</h1>
+                <h2>Register here!</h2>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="user-button-parent">
+                <a href="signup.html" class="btn btn-primary btn-lg btn-user">Login or Signup</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</body>
+
+</html>
